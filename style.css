@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 /* RESSET */
 
 *{
@@ -5,6 +7,7 @@
     padding: 0;
     margin: 0;
     color: white;
+    font-size: 18px;
 }
 
 
@@ -55,9 +58,19 @@ align-items:end;
 .gap-12 {
 gap:12px;
 }
- 
+
+.Gap230 {
+    gap: 230px;
+}
 
 
+/*------ CONTAINER -------*/
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -71,9 +84,19 @@ gap:12px;
 
 .w48 {
     width: 48%;
+} 
+
+.w40 {
+    width: 40%;
 }
 
+.w40px {
+    width: 40px;
+}
 
+.w35 {
+    width: 35%;
+}
 
 
 
@@ -97,18 +120,177 @@ ul{
     background-color: bisque;
 }
 
+
+
+
+
+
+/* -----HEADER------*/
+
 header {
     padding: 16px 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    box-sizing: border-box;
+    position: fixed;
+
 }
+
+header a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+header li a:hover {
+    color: #ddd;
+}
+
+/*----body----*/
 
 body {
     background-color: #0B1D26;
 }
+
+
+h1 h3 {
+
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+
+
+
+
+
+.trait {
+    background-color: #F5B027;
+    height: 2px;
+    width:  70px;
+}
+
+/*---NUMBER---*/
+
+
+.bignumber{
+    font-size: 150px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.377);
+    top: -93px;
+    left: 0;
+
+}
+
+/*---AU PARENT-DU-NUMBER-(DIV)---*/
+
+.relative { 
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+.Start {
+    position: fixed;
+    top: 30%;
+    right: 20px;
+
+
+}
+
+.nodeco {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
 
 .bgBanniere {
     background-image: url(images/banniere3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 200vh;
+
+
 }
+.bgBanniere h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.margin100 {
+    margin-top: 100px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    justify-content: center
+}
+
+.gap {
+    gap: 12px;
+}
+
+.marginRight {
+    margin-right: 30px;
+}
+
+.marginBottom {
+    margin-bottom: 35px;
+}
+
+.marginLeft {
+    margin-left: 30px;
+
+}
+
+
+
+.marginBottom100 {
+    margin-bottom: 100px;
+}
+
+
+
+
+.colorYellow {
+    color: #F5B027;
+}
+
